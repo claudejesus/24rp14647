@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  24rp14647:
+    image: php:8.2.12-apache
+    container_name: 24rp14647
+    volumes:
+      - "C:/xampp/htdocs/NIYIGABA_CLAUDE:/var/www/html"
+    ports:
+    - "8083:80"
