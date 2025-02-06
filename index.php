@@ -1,3 +1,4 @@
+
 <?php
     // Start the session (if needed)
     session_start();
@@ -6,34 +7,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>24RP14647_STUDENT_MIS</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            color: #333;
-        }
-        a {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            text-decoration: none;
-            background-color: #007BFF;
-            color: white;
-            border-radius: 5px;
-        }
-        a:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>WELCOME TO Students MIS</h1>
-    <a href="register.php">Go to Registration Page</a>
+<body class="bg-light text-center">
+    <div class="container mt-5">
+        <h1 class="text-primary">WELCOME TO Students MIS</h1>
+        <a href="register.php" class="btn btn-primary mt-3">Go to Registration Page</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

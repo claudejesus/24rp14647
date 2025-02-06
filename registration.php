@@ -2,50 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>24RP14647</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-            background-color: #f4f4f4;
-        }
-        form {
-            background: white;
-            padding: 20px;
-            display: inline-block;
-            border-radius: 5px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-        input {
-            display: block;
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        button {
-            background-color: #007BFF;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color:rgb(108, 184, 132);
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>24RP14647</h1>
-    <form action="register_process.php" method="POST">
-        <input type="text" name="name" placeholder="Enter your name" required>
-        <input type="email" name="email" placeholder="Enter your email" required>
-        <input type="password" name="password" placeholder="Enter your password" required>
-        <button type="submit">Submit</button>
-    </form>
+<body class="bg-light">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h1 class="text-center text-primary">Registration Page</h1>
+                        <form action="register_process.php" method="POST">
+                            <div class="mb-3">
+                                <input type="text" name="name" class="form-control" placeholder="Enter your name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" name="password" class="form-control" placeholder="Enter your password" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
