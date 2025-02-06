@@ -1,8 +1,4 @@
 
-<?php
-    // Start the session (if needed)
-    session_start();
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +10,7 @@
 <body class="bg-light text-center">
     <div class="container mt-5">
         <h1 class="text-primary">WELCOME TO Students MIS</h1>
-        <a href="register.php" class="btn btn-primary mt-3">Go to Registration Page</a>
+        <a href="registration.php" class="btn btn-primary mt-3">Go to Registration Page</a>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

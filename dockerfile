@@ -10,5 +10,6 @@ COPY index.php C:\xampp\htdocs\NIYIGABA_CLAUDE
 # Expose a port for the container
 EXPOSE 80
 
+
 # Define the default command to run when the container starts
 CMD ["nginx", "-g", "daemon off;"]
